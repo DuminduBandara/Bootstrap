@@ -1,5 +1,11 @@
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function(){
+    preloader.classList.add("preloader-finished");
+});
+
 const topHeader = document.querySelector(".top-header");
-// const topLink = document.querySelector(".top-link");
+const topLink = document.querySelector(".top-link");
 
 window.addEventListener("scroll", function(){
   const scrollHeight = window.pageYOffset;
@@ -12,13 +18,11 @@ window.addEventListener("scroll", function(){
     topHeader.classList.remove('fixed-top-header');
   }
 
-  // if(scrollHeight > navHeight){
-  //   topLink.classList.add('show-link');
-  // }
-  // else{
-  //   topLink.classList.remove('show-link');
-  // }
+  if(scrollHeight > navHeight){
+    topLink.classList.add('show-link');
+  }
+  else{
+    topLink.classList.remove('show-link');
+  }
 });
 
-
-// owl-carousel
