@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="icon" href="./img/logo-2.jpg" type="image/icon type">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/4e05476d91.js" crossorigin="anonymous"></script>
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body style="overflow-x:hidden;">
+
+    <nav class="top-header navbar navbar-expand-lg bg-trasperant fixed-top zindex-fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.jpg" alt="logo" class="img-fluid logo">
+          <span style="color:var(--pri-clr); ">DIET.</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu border-0 fs-5 overflow-hidden" style="background:var(--clr-3);" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item fs-5 nav-drop-link" href="./blog.html">Blog</a></li>
+                <li><a class="dropdown-item fs-5 nav-drop-link active" style="color: var(--clr-4);" href="./blogDetails.html">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="d-none d-lg-flex d-sm-none navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link at-link" aria-current="page" href="#book-table">Book a Table</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-link p-3" href="#">
+                <i class="fa-solid fa-phone"></i>
+                <span>(+94) 712312184</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid" id="top" style="background: #F0EADE; width:100%;">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-7 px-5 mh-100 order-2 order-sm-2 order-md-1 ban-1" style="background: #F0EADE;" data-aos="fade-right">
+          <div class="container d-md-flex d-lg-flex d-sm-block flex-column justify-content-md-center align-items-md-center" style="height:100%;">
+            <h1 class="display-3 fw-bold" style="font-family:var(--f-4); color:var(--clr-1);">Blog Details</h1>
+            <p class="fs-5">Making a reservation at Delicious restaurant is easy and takes just couple of minutes</p>       
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 g-0 mh-100 order-1 order-sm-1 order-md-2 ban-2" data-aos="fade-left">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="6000">
+                <img src="./img/car1.jpg" class="d-block w-100" style="height:75vh;" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="6000">
+                <img src="./img/car2.jpg" class="d-block w-100" style="height:75vh"; alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="6000">
+                <img src="./img/car3.jpg" class="d-block w-100" style="height:75vh"; alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-lg-8">
+          <!-- post01 -->
+          <div class="post-content shadow p-3 mb-5">
+            <div class="container-fluid post-img">
+              <img src="./img/blog/blog1.jpg" alt="blog" class="img-fluid w-100" style="height:300px;">
+              <a href="#" class="btn date-link py-5 border-0">
+                <span class="fw-bold fs-1">18</span>
+                <span class="fs-5">Jan</span>
+              </a>
+            </div>
+            <div class="container-fluid post-text px-3" style="border-bottom:1px solid var(--clr-3);">
+              <h2 class="fw-bold h2" style="font-family:var(--f-5); color: var(--clr-1);">Restaurant management</h2>
+              <div class="d-flex post-link mb-3">
+                <a href="#" class="me-3">
+                  <i class="fa-solid fa-user"></i>
+                  <span>Travel Boy</span>
+                </a>
+                <a href="#">
+                  <i class="fa-solid fa-comments"></i>
+                  <span>10 comments</span>
+                </a>
+              </div>
+              <p class="lead fs-6">The Restaurant Expert is a coaching and training company which offers seminars and workshops that assist restaurant owners in running more effective and successful businesses, while tackling common issues, like HR, inventory, and costs. Because the company focuses on training, their resources are outstanding. The Restaurant Expert’s blogs doesn’t just produce listicles for the sake of producing content, every piece they produce is chock-full of hands on learning that serves to make restaurant owners more effective at their jobs and responsibilities.</p>
+            </div>
+            <div class="row p-3">
+              <div class="col-10" style="color:var(--clr-3);">
+                <i class="fa-solid fa-heart"></i>
+                <span class="ms-1">Dumindu and 10 people like this</span>
+              </div>
+              <div class="col-2 d-flex justify-content-between po-me">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="d-grid my-5 px-3">
+              <h5 class="fw-bold h5 mb-4" style="font-family:var(--f-5); color: var(--clr-1);">03 comments</h5>
+              <div class="d-flex justify-content-between w-100 align-items-start py-3" style="border-bottom:1px solid var(--clr-3);">
+                <img src="./img/avater/a1.jpg" alt="" class="img-fluid" style="width:75px; height:75px; border-radius:100px;">
+                <div class="d-grid ms-4">
+                  <p class="lead fs-6">Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                  <div class="row com-link">
+                    <div class="col-10 d-flex">
+                      <a href="#" class="me-3">Martin Lucus</a>
+                      <p class="lead" style="font-size:0.875rem;">December 12, 2021 at 21.23</p>
+                    </div>
+                    <div class="col-2">
+                      <a href="#">Reply</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between w-100 align-items-start py-3" style="border-bottom:1px solid var(--clr-3);">
+                <img src="./img/avater/a3.jpg" alt="" class="img-fluid" style="width:75px; height:75px; border-radius:100px;">
+                <div class="d-grid ms-4">
+                  <p class="lead fs-6">Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                  <div class="row com-link">
+                    <div class="col-10 d-flex">
+                      <a href="#" class="me-3">Martin Lucus</a>
+                      <p class="lead" style="font-size:0.875rem;">December 12, 2021 at 21.23</p>
+                    </div>
+                    <div class="col-2">
+                      <a href="#">Reply</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between w-100 align-items-start py-3">
+                <img src="./img/avater/a5.jpg" alt="" class="img-fluid" style="width:75px; height:75px; border-radius:100px;">
+                <div class="d-grid ms-4">
+                  <p class="lead fs-6">Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                  <div class="row com-link">
+                    <div class="col-10 d-flex">
+                      <a href="#" class="me-3">Martin Lucus</a>
+                      <p class="lead" style="font-size:0.875rem;">December 12, 2021 at 21.23</p>
+                    </div>
+                    <div class="col-2">
+                      <a href="#">Reply</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4 class="h4 fw-bold mb-3" style="font-family:var(--f-5); color: var(--clr-1);">Leave a Reply</h4>
+            <div class="row">
+              <div class="col-12 px-3">
+                <form class="form-content">
+                  <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter Message"></textarea>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your name">
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="" placeholder="Email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Website">
+                  </div>
+                  <button type="submit" class="btn send-btn my-3">POST COMMENT</button>
+                </form>
+              </div>
+            </div>
+          </div>     
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <form class="d-flex search-con mt-4" role="search">
+            <input class="form-control" placeholder="Search Keyword" style="border-radius:0;" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" style="border-radius:0;" type="submit">Search</button>
+          </form>
+          <ul class="list-group my-5 cat-list p-3 shadow">
+            <li class="list-group-item py-3"><h4 class="h4" style="color: var(--clr-1);">Category</h4></li>
+            <li class="list-group-item py-3"><a href="#">Resaurant food(40)</a></li>
+            <li class="list-group-item py-3"><a href="#">Travel news(17)</a></li>
+            <li class="list-group-item py-3"><a href="#">Modren Technology(12)</a></li>
+            <li class="list-group-item py-3"><a href="#">Products(25)</a></li>
+            <li class="list-group-item py-3"><a href="#">Inspiration(21)</a></li>
+            <li class="list-group-item py-3 border-0"><a href="#">Health care(14)</a></li>
+          </ul>
+          <ul class="list-group my-5 cat-list p-3 shadow">
+            <li class="list-group-item py-3"><h4 class="h4" style="color: var(--clr-1);">Recent Post</h4></li>
+            <li class="list-group-item d-flex border-0">
+              <div class="row">
+                <div class="col-5">
+                  <img src="./img/blog/p1.jpg" alt="#" class="img-fluid w-100">
+                </div>
+                <div class="col-7 d-flex flex-column">
+                  <a href="#" class="fw-bold">From life was you wish</a>
+                  <span class="lead fs-6">May 20, 2022</span>
+                </div> 
+              </div>
+            </li>
+            <li class="list-group-item d-flex border-0">
+              <div class="row">
+                <div class="col-5">
+                  <img src="./img/blog/p2.jpg" alt="#" class="img-fluid w-100">
+                </div>
+                <div class="col-7 d-flex flex-column">
+                  <a href="#" class="fw-bold">The amazing hubble</a>
+                  <span class="lead fs-6">June 02, 2022</span>
+                </div> 
+              </div>
+            </li>
+            <li class="list-group-item d-flex border-0">
+              <div class="row">
+                <div class="col-5">
+                  <img src="./img/blog/p3.jpg" alt="#" class="img-fluid w-100">
+                </div>
+                <div class="col-7 d-flex flex-column">
+                  <a href="#" class="fw-bold">Fast Food</a>
+                  <span class="lead fs-6">01 Hours ago</span>
+                </div> 
+              </div>
+            </li>
+            <li class="list-group-item d-flex border-0">
+              <div class="row">
+                <div class="col-5">
+                  <img src="./img/blog/p4.jpg" alt="#" class="img-fluid w-100">
+                </div>
+                <div class="col-7 d-flex flex-column">
+                  <a href="#" class="fw-bold">Work Hard</a>
+                  <span class="lead fs-6">03 Hours ago</span>
+                </div> 
+              </div>
+            </li>
+          </ul>
+          <div class="row shadow my-5 mx-1 p-3">
+            <h4 class="h4 pb-3" style="color: var(--clr-1); border-bottom:1px solid var(--clr-3);">Tag Clouds</h4>
+            <div class="col">
+              <a href="#" class="btn m-2 tag-btn">Product</a>
+              <a href="#" class="btn m-2 tag-btn">Love</a>
+              <a href="#" class="btn m-2 tag-btn">Technology</a>
+              <a href="#" class="btn m-2 tag-btn">Travel</a>
+              <a href="#" class="btn m-2 tag-btn">Restaurant</a>
+              <a href="#" class="btn m-2 tag-btn">Life style</a>
+              <a href="#" class="btn m-2 tag-btn">Design</a>
+              <a href="#" class="btn m-2 tag-btn">Illustration</a>
+            </div>
+          </div>
+          <div class="row shadow my-5 mx-1 p-1">
+            <h4 class="h4 p-3" style="color: var(--clr-1); border-bottom:1px solid var(--clr-3);">Instagram Feeds</h4>
+            <div class="col">
+              <a href="#" class="btn m-2 p-0">
+                <img src="./img/blog/ins1.jpg" class="img-fluid" style="width:130px;">
+              </a>
+              <a href="#" class="btn m-2 p-0">
+                <img src="./img/blog/ins2.jpg" class="img-fluid" style="width:130px;">
+              </a>
+              <a href="#" class="btn m-2 p-0">
+                <img src="./img/blog/ins3.jpg" class="img-fluid" style="width:130px;">
+              </a>
+              <a href="#" class="btn m-2 p-0">
+                <img src="./img/blog/ins4.jpg" class="img-fluid" style="width:130px;">
+              </a>
+              <a href="#" class="btn m-2 p-0">
+                <img src="./img/blog/ins5.jpg" class="img-fluid" style="width:130px;">
+              </a>
+              <a href="#" class="btn m-2 p-0">
+                <img src="./img/blog/ins6.jpg" class="img-fluid" style="width:130px;">
+              </a>
+            </div>
+          </div>
+          <div class="shadow my-5 p-3">
+            <h4 class="h4 p-3" style="color: var(--clr-1); border-bottom:1px solid var(--clr-3);">Newsletter</h4>
+            <form class="d-grid">
+              <div class="my-3">
+                <input type="email" class="form-control py-2 news-e" id="exampleFormControlInput1" placeholder="Enter email" style="border-radius:0;">
+              </div>
+              <button class="btn py-2" style="background:var(--clr-3); color: var(--clr-4); border-radius:0;">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer px-5 pt-5" style="background:var(--clr-4); font-family:var(--f-5);">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 gy-lg-0 gy-3">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.jpg" alt="logo" class="img-fluid" style="width:100px;">
+            <span style="color:var(--clr-1); " class="fs-4">DIET.</span>
+          </a>
+          <p class="fw-normal fs-6 lead py-3">Land behold it created good saw after she'd Our set living. Signs midst dominion creepeth morning laboris nisi ufsit aliquip.</p>
+          <div class="d-flex justify-content-between" style="max-width:50%;">
+            <a href="https://web.facebook.com/" class="btn btn-sm footer-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" class="btn btn-sm footer-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" class="btn btn-sm footer-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.pinterest.com/" class="btn btn-sm footer-link"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 gy-lg-0 gy-3">
+          <h3 class="h3 fw-normal" style="color: var(--clr-3);">Quick Links</h3>
+          <ul class="list-group quick-link">
+            <li class="list-group-item border-0" style="background:var(--clr-4);">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="list-group-item border-0" style="background:var(--clr-4);">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="list-group-item border-0" style="background:var(--clr-4);">
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li class="list-group-item border-0" style="background:var(--clr-4);">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 gy-lg-0 gy-3">
+          <h3 class="h3 fw-normal" style="color: var(--clr-3);">Cakes</h3>
+          <ul class="list-group quick-link">
+            <li class="list-group-item border-0" style="background:var(--clr-4);"><a href="#">Blackforest</a></li>
+            <li class="list-group-item border-0" style="background:var(--clr-4);"><a href="#">Bodhubon</a></li>
+            <li class="list-group-item border-0" style="background:var(--clr-4);"><a href="#">Rongdhonu</a></li>
+            <li class="list-group-item border-0" style="background:var(--clr-4);"><a href="#">Meghrong</a></li>
+          </ul>
+        </div> 
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 gy-lg-0 gy-3">
+          <h3 class="h3 fw-normal" style="color: var(--clr-3);">Contact Us</h3>
+          <p style="font-size:1.1rem; color: var(--clr-1);">23/Z, GreenLand Park, Nuwara-Eliya Rd, Welimada</p>
+          <p class="fs-4" style="color: var(--clr-1);">(+94) 712312184</p>
+          <p class="fs-6" style="color: var(--clr-1);">lakshand969@gmail.com</p>
+        </div>
+      </div>
+      <p class="footer-copyright text-center m-0 py-3">&copy;copyright &copy;DIET Food Company<span id="date"></span>. All rights reserved</p>
+    </div>
+    <a href="#top" class="scroll-link top-link"><i class="fa-solid fa-angle-up"></i></a>
+    <div class="preloader" id="preloader">
+      <img src="./img/preloader.gif" alt="" class="preloader-gif">
+    </div>
+
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./JS/script.js"></script>
+    <script src="./JS/owl-carousel.js"></script>
+    <script src="./JS/aos.js"></script>
+    <script>
+      const date = document.getElementById("date");
+      date.innerHTML =  new Date().getFullYear();
+    </script>
+  </body>
+</html>
